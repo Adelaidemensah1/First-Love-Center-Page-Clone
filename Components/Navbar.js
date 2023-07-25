@@ -16,7 +16,7 @@ function Navbar() {
               
         <div className="nav rightside">
              <a className="nav-link " href="\jesus">JESUS</a>
-             <a className="nav-link " href="\whoweare">WHO WE ARE</a>
+             <a className="nav-link " href="#whoweare">WHO WE ARE</a>
              <a className="nav-link " href="\global">GLOBAL</a>
              <a className="nav-link " href="\getinvolved">GET INVOLVED</a>
              <a className="nav-link " href="\giving">GIVING</a>
