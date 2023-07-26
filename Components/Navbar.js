@@ -4,7 +4,7 @@ import logo from "./FL-LOgo.png";
 function Navbar() {
     return(
     <div className="Main-element">
-        <div className="Navbar"> 
+        <div className="Navbar fixed-top"> 
           <div id="page-container">
           <nav class="nav leftside">
           
