@@ -2,13 +2,14 @@ import './App.css';
 import React from 'react';
 import Navbar from './Components/Navbar';
 import BackgroundVideo from "./Components/background-video-1.mp4"
+import bjosh from "./Components/resident-pastor-thumbnail.png"
  
 
 
 function App() {
   return (
 <div className="App">
-           <Navbar /> 
+<Navbar /> 
        
   <main>
       <section id='home'>
@@ -57,48 +58,90 @@ function App() {
       </section>
       
       <section id="whoweare">
+            <div id='whoweare_div'>
           
               <h1 id="whoweare_h1">The First Love Center</h1>
-              <div>
+              <div className='blurb-description'>
                        <h4>
                          <strong>We believe in Jesus, soul winning and<br/>working for the Lord all day long.</strong>
                      </h4>
                      
                      <p>
-                        In 2012, our founder Bishop <strong>Dag Heward-Mills</strong> was led by the Holy Spirit to begin a 
-                        new denomination which he called the First Love Church. In a small chapel on the 
-                        University of Ghana, Legon Campus, he gathered a few students and began a small church.
+                        In 2012, our founder Bishop <strong>Dag Heward-Mills</strong> was led by the Holy Spirit to begin a<br/>
+                        new denomination which he called the First Love Church. In a small chapel on the <br/>
+                        University of Ghana, Legon Campus, he gathered a few students and began a small<br/> church.
+                     </p>
+                     <p></p>
+                     <p>
+                         A few years later, God has increased us into one of the largest churches in our city.<br/>
+                         With over 10,000 members and in our new state of the art auditorium, we are even<br/>
+                          more determined to see the name of Jesus lifted in the city of Accra.
                      </p>
                      <p>
-                         A few years later, God has increased us into one of the largest churches in our city. 
-                         With over 10,000 members and in our new state of the art auditorium, 
-                         we are even more determined to see the name of Jesus lifted in the city of Accra.
-                     </p>
-                     <p>
-                         Today, thousands of young people gather at our services because we believe that everyone is 
-                         welcome into the house of God. In a place where soul-winning is our passion, 
-                         we have seen countless lives changed, saved and renewed in our church.
+                         Today, thousands of young people gather at our services because we believe that<br/>
+                         everyone is welcome into the house of God. In a place where soul-winning is our <br/>  
+                         passion,we have seen countless lives changed, saved and renewed in our church.
                      </p>
                      <p>
                           
-                     Join us for a life changing encounter with the Word of God, Worship and the Holy Spirit. 
-                     A Sunday at the First Love Center is more than just a church service, it’s an experience!
+                     Join us for a life changing encounter with the Word of God, Worship and the Holy<br/>
+                     Spirit. A Sunday at the First Love Center is more than just a church service, it’s an<br/>
+                     experience!
                      </p>   
+
+                     
+                     <div >
+                         <p><img src={bjosh} alt='resident pastor' /></p>
+
+                         <p className='bjosh'> Joshua Dag Heward-Mills,<br/>
+                                  Resident Pastor.</p>
+                     </div>
               </div>
-              <button className='btn btn-success btn-lg'>LOCATE THE FIRST LOVE CENTER</button>
-          
+              <button className='btn '>LOCATE THE FIRST LOVE CENTER</button>
+          </div>
       </section>
         
        <section id="welcome">
               <div class="container1">
+                <div>
                     <h1>First Love Church</h1>
                     <h3>Welcome Home</h3>
                     <h5>Your ALL ACCESS PASS to everything that is happening at FirstLove around the globe!</h5>
                     <button className='btn1'>WATCH FREE</button>
-
+                </div>
               </div>
         
-       </section>     
+       </section>  
+
+       <section id='audio'>
+         <div >
+             <h4><span>DHMM Audios</span></h4>
+         </div>
+         <div>
+            <tr>
+        
+            </tr>
+         </div>
+            
+
+
+
+       </section>
+
+       <section id='events'>
+
+        <h1>Conferences and Events</h1>
+
+
+       </section>
+
+       <section id='giving'>
+
+        <h1>How to give!</h1>
+
+       </section>
+           
+       
       
        </main>
        
