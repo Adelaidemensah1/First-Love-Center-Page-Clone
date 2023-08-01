@@ -114,19 +114,38 @@ function App() {
        </section>  
 
        <section id='audio'>
-         <div >
-             <h4><span>DHMM Audios</span></h4>
-         </div>
+  <div>
+        <div >
+             <h4 id='makeBold'>DHMM Audios</h4>
+             <p><strong>Welcome to the Dag Heward-Mills Audio Collection!<br/>
+             This collection of sound teachings and songs will transform <br/>your life!<br/>
+                     Browse the catalog now.</strong></p>
+        </div>
+  <div className='audiocenter'>
+  <table>
+       <div className='dhmm_top'>
          <div>
-            <tr>
-        
-            </tr>
-         </div>
+             <tr>
+                <div className='audiospace'> <td><a className='btn2' href='https://media.firstlovecenter.com/dhm-audio-catalog'>DHMM MINISTRY PRODUCTS</a></td></div>
+                 <td><a className='btn2' href='https://www.mediafire.com/file/j6imxop3nj4viyg/DHMM_Audio_2020.zip/file'>CLICK HERE FOR 2020 UPDATE!</a></td>
+             </tr>  
+          </div>
+       </div>
+          <div className='dhmm_bottom'>
+              <div>
+                 <tr>
+                    <div className='audiospace'><td><a className='btn2' href='https://www.mediafire.com/file/qbyv9yjz6jj1gij/Flow_Prayer_Season_1.zip/file'>FLOW SEASON 1 AUDIOS</a></td></div>
+                    <td><a className='btn2' href='https://www.mediafire.com/file/z7fzuxnvtpwyv5s/DHM_Audio_Update_2021.zip/file'>CLICK HERE FOR 2021 UPDATE!</a></td>
+                 </tr>
+              </div>
+        </div>
             
-
-
-
-       </section>
+       
+        </table>
+  </div>
+    
+        </div>
+</section>
 
        <section id='events'>
 
