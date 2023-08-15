@@ -1,38 +1,336 @@
-.App {
+.App{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.Navbar fixed-top{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  padding: bottom 0px;
+  padding: top 1000px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: top fixed;
+  
+}
+
+
+
+.Navbar fixed-top .leftSide {
+  flex : 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.Navbar .nav-link {
+  color: white;
+
+}
+
+.Navbar .nav{
+  align-items: center;
+}
+
+.Navbar .nav justify-content-bottom{
+  padding-bottom: 1000px;
+  padding-top:1px ;
+}
+
+
+
+
+
+
+div .container1{
+  text-align: center;
+  color: white;
+  background-image:url("./Components/flc-channel-bg.jpg") ;
+  background-size: contain;
+  background-size: 100%;  
+  height: 1400px;
+  background-repeat: no-repeat;
+  padding-top:150px;
+  padding-bottom: 0;
+
+}
+
+.jumbotron{
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.jumbotron p{
+  color:white;
+}
+
+.btn1{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.3em 1em;
+    line-height: 1.7em!important;
+    color: #ffffff!important;
+    border-radius: 25px;
+    letter-spacing: 9px;
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 2px solid;
+
+}
+#channel{
+  color: white;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.blurb_content{
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.blurb_content .blurb_container{
+  text-align: left;
+}
+
+
+
+.blurb_container span{
+  font-size: 40px;
+    color: #ffffff!important;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+
+
+.salvation{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#whoweare{
+  background-image: linear-gradient(180deg,#eaeaea 0%,#eaeaea 100%);
+  padding-bottom: 100px ;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#whoweare_div{
+  width: fit-content;
+  height: fit-content;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: auto;
+  text-align: center;
+  
+}
+#whoweare_h1{
+  font-size: 48px;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 700;
+  padding: 27px 0;
+  color: #35AEDD;
+}
+
+.blurb-description{
+  text-align: justify;
+  color: #757575
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.bjosh{
+  text-align: right;
+  margin-right: 50px;
+}
+
+.btn{
+  color: black;
+  border-style: round;
+  border-color: black;
+  border-radius: 40px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  
+}
+
+#audio{
+    background-position: center top;
+    background-blend-mode: multiply;
+    background-image:url("./Components/dhmaudiobg.jpg")!important ;
+    background-size: 1400px;  
+    height: 600px;
+    background-repeat: no-repeat;
+    padding-top:100px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center; 
+
+}
+
+#makeBold{
+  font-weight: 900;
+}
+
+table{
+  text-align: center;
+  border-spacing: 20px;
+}
+.dhmm_top{
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dhmm_bottom{
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 230px;
+  padding: 20px;
+  text-align: center;
+}
+
+.audiospace{
+  padding-right: 150px;
+}
+
+.audiocenter{
+  text-align: center;
+
+}
+
+#split{
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.salvation{
+  color: blue;
+}
+
+#about{
+  
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-image:url("./Components/about-dag.jpg")!important;
+  background-color: #565656!important;
+  padding-bottom: 5em;
+}
+
+.main{
+  width: 50%;
+  height: 50%;
+ }
+
+ #dag{
+  text-align: left;
+  color:white;
+  font-size: 100%;
+ }
+
+ .main p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 10em;
+    padding-bottom: 1em;
+    color:white;
+    text-align: left;
+  
+ }
+
+ .btn2{
+  font-size: 20px;
+    padding: 0.3em 1em;
+    line-height: 1.7em;
+    color: #ffffff;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    text-decoration: none;
+ }
+
+#home {
+  
+  margin: 0;
+  padding: 0px, 0px, 0px;
+  position: relative;
+  
+}
+
+.mainvid{
+  width: 100%;
+  height: 100vh;
+ 
+  
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainvid .content h2{
+  font-size: 80px;
+    color: #ffffff!important;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.mainvid .content h6{
+  font-size: 34px;
+  color: #ffffff!important;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+
+.content{
+  font: size 100px;
+  font-weight: 600;
+  text-shadow: 0em 0em 1em rgba(0,0,0,0.4);
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top:0;
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items: center;
+ color: #ffffff!important;
+ line-height: 1.3em;
+ }
+
+ #welcome{
   color: white;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
